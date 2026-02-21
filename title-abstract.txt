@@ -1,5 +1,5 @@
-Title:
-<MY SUPER AWESOME PROJECT TITLE>
+title:
+Multi-Facility Patient Flow Optimization: A Simulation Approach
 
-Abstract:
-<MY SUPER AWESOME PROJECT ABSTRACT>
+abstract:
+Emergency department (ED) boarding, where admitted patients remain in the ED due to unavailable inpatient beds, contributes to prolonged wait times, degraded care quality, and increased patient mortality. In multi-hospital health systems, understanding patient flow across facilities is essential for identifying bottlenecks, planning resource reallocation during disruptions such as staffing shortages, and evaluating system-wide capacity. This project develops a multi-facility discrete event simulation (DES) of patient flow across UC San Diego Health's three campuses (La Jolla, Hillcrest, and East Campus) using institutional Admit-Discharge-Transfer (ADT) data comprising 2.1 million events across 985,000 patient encounters over a recent one-year observation period. We define a 9-state model consisting of three care tiers (ED, Floor, ICU) across three campuses, plus discharge, and construct a trajectory library of 150,337 real patient paths extracted from the cleaned data. Rather than relying on theoretical transition probabilities, each simulated patient follows an actual historical trajectory with empirical durations, preserving the complexity of real clinical pathways. Arrival rates are modeled per campus with weekday and weekend differentiation. Preliminary results from unconstrained simulation runs produce resource utilization curves consistent with expected hospital operations, enabling inference of bed capacity parameters across all nine facility-tier combinations.
